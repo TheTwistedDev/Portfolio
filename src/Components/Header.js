@@ -45,14 +45,14 @@ const Header = ({ data }) => {
             </a>
           </li>
           <li>
-            <a className="smoothscroll" href="#portfolio">
+            {/* <a className="smoothscroll" href="#portfolio">
               Works
-            </a>
+            </a> */}
           </li>
           <li>
-            <a className="smoothscroll" href="#testimonials">
+            {/* <a className="smoothscroll" href="#testimonials">
               Testimonials
-            </a>
+            </a> */}
           </li>
           <li>
             <a className="smoothscroll" href="#contact">
