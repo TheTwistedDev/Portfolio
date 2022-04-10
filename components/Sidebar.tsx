@@ -2,6 +2,7 @@ import { AiFillGithub, AiFillLinkedin, } from 'react-icons/ai'
 import { MdDownload, MdLocationPin, MdEmail} from 'react-icons/md'
 import { CgPhone } from 'react-icons/cg'
 import { useTheme } from 'next-themes'
+import Image from "next/image"
 
 function Sidebar() {
 
@@ -13,9 +14,13 @@ function Sidebar() {
 
   return (
     <div className="my-16">
-        <img src="https://scontent-lax3-1.xx.fbcdn.net/v/t1.6435-9/103245040_367548450872669_4344908761441636494_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=da31f3&_nc_ohc=EmWrpbWkHrAAX-UcsuL&_nc_ht=scontent-lax3-1.xx&oh=00_AT_3f0yMglqXRwWcH_PvoGpMA5V2WL-OoFMYrEnONNpZGw&oe=627425D0" 
-        alt="user avatar" 
-        className="w-32 h-32 mx-auto rounded-full"/>
+        <Image 
+            src="/img/profilepic.jpg"
+            alt="user avatar"
+            className="w-32 h-32 mx-auto rounded-full"
+            width="100"
+            height="100"
+        />
         <h3 className="my-4 text-3xl font-medium tracking-wide font-patrick">
             <span className="text-blue-500">Abdullah</span> Al-Suwaidi
         </h3>
@@ -30,10 +35,12 @@ function Sidebar() {
         </a>
         {/* Social Icons */}
         <div className="flex justify-around m-auto my-8 text-blue-500 md:w-full">
-            <a href="https://github.com/TheTwistedDev">
+            <a href="https://github.com/TheTwistedDev" target="_blank"
+                rel="noreferrer">
                 <AiFillGithub className="w-12 h-12 cursor-pointer"/>
             </a>
-            <a href="https://www.linkedin.com/in/abdullah-al-suwaidi-787b1416b/">
+            <a href="https://www.linkedin.com/in/abdullah-al-suwaidi-787b1416b/" target="_blank"
+                rel="noreferrer">
                 <AiFillLinkedin className="w-12 h-12 cursor-pointer"/>
             </a>
         </div>
