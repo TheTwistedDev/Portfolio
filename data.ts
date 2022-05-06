@@ -91,7 +91,18 @@ export const tools: ISkill[] = [
 
 export const projects:IProject[] = [
     {
-        id: 1,
+        id: 1, 
+        name: "Example Blog",
+        description: 
+        "This site is an example blog site",
+        image_path: '/img/EXAMPLE_BLOG_SITE.jpg',
+        deployed_url: "https://blog-site-with-sanity.vercel.app",
+        github_url: "https://github.com/TheTwistedDev/blog-site-with-sanity",
+        category: ["react", "typescript", "next","node"],
+        key_techs:["React", "Next.js", "Sanity.io", "Typescript","Tailwindcss"],
+    },
+    {
+        id: 2,
         name: "NFT MarketPlace",
         description: 
         'This app is a Test NFT MarketPlace',
@@ -99,6 +110,18 @@ export const projects:IProject[] = [
         deployed_url: 'https://nft-challenge-xi.vercel.app',
         github_url: 'https://github.com/TheTwistedDev/nft-challenge',
         category: ["react", "express", "node", "typescript", "next"],
-        key_techs: ["React", "Next.js", "ThirdWeb", "Sanity.io", "Typescript"],
+        key_techs: ["React", "Next.js", "ThirdWeb", "Sanity.io", "Typescript", "Next-Auth", "Tailwindcss"],
     },
+    {
+        id: 2,
+        name: "Example Ecommerce Site",
+        description: 
+        'This app is an example ecommerce site',
+        image_path: '/img/EXAMPLE_ECOMMERCE_SITE.jpg',
+        deployed_url: 'https://ecommerce-site-eight.vercel.app',
+        github_url: 'https://github.com/TheTwistedDev/ecommerce-site',
+        category: ["react", "express", "node", "next"],
+        key_techs: ["React", "Next.js", "Sanity.io", "Stripe.js", "Tailwindcss"],
+    },
+   
 ]
