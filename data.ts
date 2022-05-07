@@ -122,6 +122,5 @@ export const projects:IProject[] = [
         github_url: 'https://github.com/TheTwistedDev/ecommerce-site',
         category: ["react", "express", "node", "next"],
         key_techs: ["React", "Next.js", "Sanity.io", "Stripe.js", "Tailwindcss"],
-    },
-   
+    }, 
 ]
