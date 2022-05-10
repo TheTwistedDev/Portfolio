@@ -113,7 +113,7 @@ export const projects:IProject[] = [
         key_techs: ["React", "Next.js", "ThirdWeb", "Sanity.io", "Typescript", "Next-Auth", "Tailwindcss"],
     },
     {
-        id: 2,
+        id: 3,
         name: "Example Ecommerce Site",
         description: 
         'This app is an example ecommerce site',
